@@ -48,8 +48,6 @@ export function TransactionProvider({children}: TransactionsProviderProps) {
       ...transactions,
       transaction
     ]);
-
-    console.log(transactions)
   }
 
     return(
