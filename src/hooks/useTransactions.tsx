@@ -41,8 +41,6 @@ export function TransactionProvider({children}: TransactionsProviderProps) {
     })
     
     const { transaction } = response.data;
-
-    console.log(transaction)
     
     setTransactions([
       ...transactions,
